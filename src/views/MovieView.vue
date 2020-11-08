@@ -46,6 +46,14 @@ export default {
     loading: true,
     details: {}
   }),
+  computed: {
+    title() {
+      return this.loading ? '' : this.details.Title
+    },
+    posterUrl() {
+      return this.loading ? '' : this.details.Poster
+    }
+  },
   methods: {
     async fetchDetails(id) {
       this.$imdbApi.setPlotType('full')
