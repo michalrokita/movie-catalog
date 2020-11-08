@@ -5214,6 +5214,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -5828,10 +5833,10 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-omdb-async-api-wrapper@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/omdb-async-api-wrapper/-/omdb-async-api-wrapper-1.2.0.tgz#7e61dc5db85aeb67203f88c6c5f0b12d6772d8ef"
-  integrity sha512-hS0L7TYJUFWhgO7g/NkCc1m2VA7Zf7xka1pUUpaDlZbuiNpUmLxxY1eZVv9HkB1bd7Hvg8V6rNFf7hYmCiRs7g==
+omdb-async-api-wrapper@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/omdb-async-api-wrapper/-/omdb-async-api-wrapper-1.10.0.tgz#a98b90dcd3548ecb9ac0bff7b6f38359562652b3"
+  integrity sha512-hvtaJMpcs1Ekqh0IdGSbJeX1lgqs0CWm+ude4AZnOWREcnxRnWkoxf2tEFcUjDGyXCcBsiwOc1tQQuXQ4dL/Jw==
 
 on-finished@~2.3.0:
   version "2.3.0"

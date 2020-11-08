@@ -6,7 +6,12 @@
 
     <b-collapse id="nav-text-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-text>Navbar text</b-nav-text>
+        <b-nav-item :to="{ name: 'movie-catalog' }">
+          Movie catalog
+        </b-nav-item>
+<!--        <b-nav-item :to="{ name: 'favorites-movies' }">-->
+<!--          Favorites-->
+<!--        </b-nav-item>-->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
