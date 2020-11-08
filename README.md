@@ -1,4 +1,4 @@
-# movie-catalog
+# Movie catalog
 
 ## Project setup
 ```
@@ -11,6 +11,7 @@ yarn serve
 ```
 
 ### Compiles and minifies for production
+After building an app, you will find compiled and ready to go files in the */dist* folder. Just upload them onto your server to start using the app.
 ```
 yarn build
 ```
